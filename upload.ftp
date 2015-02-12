@@ -1,0 +1,11 @@
+open ftp.sixist.co.uk
+user
+pass
+prompt i
+bin
+cd public_html
+mput *.html
+mput *.css
+mput *.js
+mput *.jpg
+bye
